@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tareas</title> 
+    <link rel="stylesheet" href="estilos.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <section class="app">
+        <div class="contenedor">
+            <div class="contenedor__titulo">
+                <span id="dia"></span>,
+                <span id="numero"></span>
+                <span id="mes"></span>
+                <span id="ano"></span>
+                <h1>Hola, esta es tu lista de tareas</h1>
+                <input placeholder="Tarea..." type="text" id="tarea">
+                <button id="agregar">Agregar</button>
+            </div>
+            <div class="contenedor__tareas"></div>
+        </div>
+    </section>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
