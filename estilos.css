@@ -79,3 +79,23 @@
 .item .texto p{
     text-align: center;
 }
+
+@media (max-width: 550px) {
+    .contenedor{
+        width: 90%;
+    }
+
+    .contenedor__titulo h1{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 490px) {
+    .contenedor__titulo input{
+        width: 100%;
+    }    
+    .contenedor__titulo button{
+        margin-top: 10px;
+    }
+}
